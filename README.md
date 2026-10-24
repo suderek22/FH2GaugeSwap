@@ -37,4 +37,4 @@ Requires Python 3, CMake and an x64 MSVC C++ toolchain.
 
 ## Textures
 
-Source artwork is generated as PNGs (8x64, 16x16, 60x100, 64x32 and 64x128). Game-ready textures are native Durango BC7 `.swatchbin` files made with the reusable [SwatchbinConverter](../SwatchbinConverter/README.md) via `build_swatchbins.ps1`, which takes the path to your ForzaTech tools and your game's Anthem archive as parameters (`-ForzaTechDir`, `-AnthemArchive`). Prebuilt textures are only needed if you don't regenerate them.
+Source artwork is generated as PNGs (8x64, 16x16, 60x100, 64x32 and 64x128). Game-ready textures are native Durango BC7 `.swatchbin` files made with the reusable [SwatchbinConverter](https://github.com/suderek22/SwatchbinConverter) via `build_swatchbins.ps1`, which takes the path to your ForzaTech tools and your game's Anthem archive as parameters (`-ForzaTechDir`, `-AnthemArchive`). Prebuilt textures are only needed if you don't regenerate them.
